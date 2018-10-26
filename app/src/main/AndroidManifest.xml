@@ -45,7 +45,7 @@
 
         <!-- 设备管理器权限 恢复出厂设置权限 -->
         <receiver
-            android:name=".receiver.WipeDataAdminReciver"
+            android:name="blackbird.com.screenapplication.receiver.WipeDataAdminReciver"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data
                 android:name="android.app.device_admin"

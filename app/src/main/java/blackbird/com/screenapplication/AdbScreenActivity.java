@@ -78,6 +78,8 @@ public class AdbScreenActivity extends Activity {
                     Toast.makeText(this, "您的手机还未获取root权限", Toast.LENGTH_SHORT).show();
                 }
                 break;
+            default:
+                break;
         }
     }
 
